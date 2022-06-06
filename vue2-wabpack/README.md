@@ -1,4 +1,4 @@
-# my-page
+# vue2-webpack
 
 ## Project setup
 ```

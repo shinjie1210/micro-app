@@ -2,7 +2,7 @@ import {
     createRouter,
     createWebHistory
 } from 'vue-router'
-import MyPage from '../views/my-page.vue'
+import Vue2Webpack from '../views/vue2-webpack.vue'
 
 const routes = [{
     path: '/ ',
@@ -14,10 +14,10 @@ const routes = [{
     path: '/bar',
     component: () => import('../views/bar.vue')
 }, {
-    // 👇 非严格匹配，/my-page/* 都指向 MyPage 页面
-    path: '/my-page/:page*', // vue-router@4.x path的写法为：'/my-page/:page*'
-    name: 'my-page',
-    component: MyPage,
+    // 👇 非严格匹配，/vue2-webpack/* 都指向 MyPage 页面
+    path: '/vue2-webpack/:page*', // vue-router@4.x path的写法为：'/vue2-webpack/:page*'
+    name: 'vue2-webpack',
+    component: Vue2Webpack,
 }, ]
 
 const router = createRouter({

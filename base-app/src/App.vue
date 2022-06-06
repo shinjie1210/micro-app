@@ -46,7 +46,7 @@
 <template>
     <div>
         <img alt="Vue logo" src="./assets/logo.png" />
-        <router-link to="/my-page/:page*">/my-page/:page*</router-link>
+        <router-link to="/vue2-webpack/:page*">/vue2-webpack/:page*</router-link>
     </div>
     <button @click="toFoo">to foo</button>
     <button @click="toBar">to bar</button>
