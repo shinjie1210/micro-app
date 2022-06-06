@@ -9,6 +9,7 @@
     "scripts": {
         "install:base": "cd base-app && npm install",
         "install:vue2": "cd vue2-webpack && npm install",
+        "install:wrap": "npm install",
         "install-all": "npm-run-all --parallel install:*",
         "dev:base": "cd base-app && npm run dev",
         "dev:vue2": "cd vue2-webpack && npm run serve",
