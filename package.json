@@ -1,0 +1,20 @@
+{
+    "name": "micro-app-demo",
+    "version": "1.0.0",
+    "description": "micro-app自用模板",
+    "author": {
+        "name": "shinjie",
+        "email": "shinjie1210@foxmail.com"
+    },
+    "scripts": {
+        "install:base": "cd base-app && npm install",
+        "install:vue2": "cd vue2-webpack && npm install",
+        "install-all": "npm-run-all --parallel install:*",
+        "dev:base": "cd base-app && npm run dev",
+        "dev:vue2": "cd vue2-webpack && npm run serve",
+        "dev-all": "npm-run-all --parallel dev:*"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}
