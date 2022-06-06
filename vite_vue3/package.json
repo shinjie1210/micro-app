@@ -1,0 +1,26 @@
+{
+  "name": "base-app",
+  "private": true,
+  "version": "0.0.0",
+  "author": {
+    "name": "shinjie",
+    "email": "shinjie1210@foxmail.com"
+  },
+  "scripts": {
+    "dev": "vite --open --mode stg",
+    "stg": "vite --open --mode stg",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@micro-zoe/micro-app": "^0.8.5",
+    "axios": "^0.27.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
